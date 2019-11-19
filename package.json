@@ -1,15 +1,15 @@
 {
-  "name": "timezone-converter",
+  "name": "timeq",
   "version": "1.0.0",
   "description": "online timzone converter",
   "scripts": {
     "watch": "parcel watch index.html",
     "serve": "cd dist && lite-server",
-    "start": "concurrently \"npm:watch\" \"npm:serve\"",
+    "start": "concurrently \"npm:serve\"",
     "build": "parcel build index.html --public-url=./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "rajasharan@gmail.com",
+  "author": "2018ht13368@gmail.com",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.5.0",
